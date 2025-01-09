@@ -1,8 +1,8 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: LINDA Dataportaal
+description: De toolkit voor om data te leveren en te gebruiken over openbare laadinfrastructuur
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://linda-dataportaal.github.io/LINDA-toolkit/
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Docs op Github: https://github.com/LINDA-Dataportaal/LINDA-toolkit
