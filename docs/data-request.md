@@ -1,7 +1,7 @@
 ---
-Title: Data-aanvraag
-theme: home
-----
+title: Data-aanvraag
+layout: home
+---
 
 Om toegang te krijgen tot data uit het LINDA Dataportaal, moet een aanvraag ingediend worden. Aanvragen worden beoordeeld door het LINDA Datateam.
 
