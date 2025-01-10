@@ -4,9 +4,11 @@ layout: home
 nav_order: 1
 ---
 
+# Toolkit LINDA Dataportaal
+
 De Nationale Agenda Laadinfrastructuur (NAL) heeft tot doel om de uitrol van een integrale laadinfrastructuur mogelijk te maken. Eén onderdeel van het programma is een initiatief van de overheden in zes NAL-samenwerkingsregio’s en betreft het landelijk dataportaal laadpaalgebruiksgegevens (LINDA) met gebruiksgegevens van openbare laadpalen. 
 
-Deze site beschrijft afspraken en processen tussen betrokken partijen rondom het aanleveren aan, opslaan op en delen van data via het LINDA-dataportaal. Deze site is tot stand gekomen in samenwerking met een groot aantal partijen.
+Op deze site vindt je hulpmiddelen, afspraken en procesbeschrijvingen over het aanleveren aan, opslaan op en delen van data via het LINDA-dataportaal. Deze site is tot stand gekomen in samenwerking met een groot aantal partijen.
 
 **Doelstelling**
 
