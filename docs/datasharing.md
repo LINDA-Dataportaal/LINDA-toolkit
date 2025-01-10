@@ -1,9 +1,12 @@
 ---
 title: Data sharing
 layout: home
+nav_order: 2
 ---
 
-Deze pagina beschrijft de afspraken en processen beschreven met betrekking tot het aanleveren, verzamelen, ontsluiten en gebruiken van data.
+# Dataprocessen binnen het LINDA Dataportaal
+
+Een belangrijk onderdeel van de LINDA Toolkit zijn de afspraken over het aanleveren, verzamelen, ontsluiten en gebruiken van data. Die afspraken staan hieronder.
 
 # Datalevering
   
