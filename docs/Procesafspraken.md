@@ -6,7 +6,7 @@ nav_order: 2
 
 # Dataprocessen binnen het LINDA Dataportaal
 
-Een belangrijk onderdeel van de LINDA Toolkit zijn de afspraken over het aanleveren, verzamelen, ontsluiten en gebruiken van data. Die afspraken staan hieronder.
+Bij het LINDA Dataportaal zijn veel partijen betrokken. Dat vergt waarborgen en afspraken over het aanleveren, verzamelen, ontsluiten en gebruiken van data. Die afspraken staan hieronder.
 
 # Datalevering
   
