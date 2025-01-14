@@ -3,6 +3,9 @@ title: Architectuur LINDA Dataportaal
 layout: home
 ---
 
+### Architectuur
+![Architectuur NDW](docs/LINDA_architectuur.png "LINDA Architectuur")
+
 ### Data ontvangst
 
 Het LINDA Dataportaal maakt gebruik van OCPI (Open Charge Point Interface) voor de uitwisseling van locatie en sessiegegevens van openbare laadpalen. Het LINDA Dataportaal ondersteunt OCPI-versie 2.1.1 en 2.2.1.
