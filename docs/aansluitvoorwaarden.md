@@ -7,7 +7,7 @@ layout: home
 
 Om als CPO data aan te leveren aan het LINDA Dataportaal bij NDW gelden onderstaande aansluitvoorwaarden. Als onderdeel van het aansluitproces voert NDW keten- en datakwaliteitstesten uit om te controleren of de levering van data over openbare laadinfrastructuur correct verloopt.  
 
-* Welke gegevens?
+### Welke gegevens?
 Gegevens die worden aangeleverd hebben betrekking op de locaties van laadpalen en de laadsessies. Getest zal worden of de aanlevering van data aan NDW plaatsvindt conform de OCPI 2.2.1 standaard, met specifiek de modules “Locations”  en “CDR”.
 
 | Testvoorbereiding         | Gereed     | 
