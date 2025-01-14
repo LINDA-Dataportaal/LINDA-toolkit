@@ -1,7 +1,7 @@
 ---
 title: Data sharing
 layout: home
-nav_order: 2
+nav_order: 3
 ---
 
 # Dataprocessen binnen het LINDA Dataportaal
