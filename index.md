@@ -12,7 +12,7 @@ Op deze site vindt je hulpmiddelen, afspraken en procesbeschrijvingen over het a
 
 **Doelstelling**
 
-Het LINDA Dataportaal verzamelt gegevens van openbare laadpalen om het gebruik van deze laadpalen inzichtelijk te maken en de behoefte aan nieuwe laadpalen kan worden bepaald. Het LINDA Dataportaal is bedoeld om deze gegevens beschikbaar te maken voor beleid, onderzoek en ontwikkeling van nieuwe diensten. Daarmee draagt het bij aan beter inzicht en betere monitoring, ondersteunt het de energietransitie en klimaatdoelstellingen en stimuleert het samenwerking en efficiency.
+Het LINDA Dataportaal verzamelt gegevens van openbare laadpalen om het gebruik van deze laadpalen inzichtelijk te maken en de behoefte aan nieuwe laadpalen te kunnen bepalen. Het LINDA Dataportaal is bedoeld om deze gegevens beschikbaar te maken voor beleid, onderzoek en ontwikkeling van nieuwe diensten. Daarmee draagt het bij aan beter inzicht en betere monitoring, ondersteunt het de energietransitie en klimaatdoelstellingen en stimuleert het samenwerking en efficiency.
 
 
 
