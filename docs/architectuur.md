@@ -1,5 +1,5 @@
 ---
-title: Architectuur LINDA Dataportaal
+title: Architectuur
 layout: home
 ---
 
