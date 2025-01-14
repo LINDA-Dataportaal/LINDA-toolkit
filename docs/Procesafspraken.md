@@ -7,7 +7,6 @@ nav_order: 3
 # Dataprocessen binnen het LINDA Dataportaal
 
 Bij het LINDA Dataportaal zijn veel partijen betrokken. Dat vergt waarborgen en afspraken over het aanleveren, verzamelen, ontsluiten en gebruiken van data. Die afspraken staan hieronder.
-
 # Datalevering
   
 1. Het beschikbaar stellen van sessiegegevens van openbare laadpalen aan NDW vindt uitsluitend plaats na een schriftelijke opdracht van de data-eigenaar. Als het data-eigenaarschap bij de contract-/concessiehouder ligt, dan geeft die toestemming aan betreffende CPO. Ligt het data-eigenaarschap bij een CPO, dan geeft deze rechtstreeks toestemming aan NDW voor het toevoegen van sessiegegevens van openbare laadpalen aan het LINDA Dataportaal. 
