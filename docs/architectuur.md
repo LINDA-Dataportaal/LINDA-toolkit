@@ -20,8 +20,8 @@ De CDR data worden bij het verwerken gecontroleerd op de onderstaande regels:
 
 * check op aanwezigheid van verplichte velden in de OCPI specs.
 ** Alleen de velden die worden geïmporteerd worden gecontroleerd
-*** versie 2.1.1: htt github.com/ocP-i/ocpi/releases/download/2.1.1-d2/OCPI 2.1.1-d2.P-df
-*** versie  2.2.1: htt  github.com/ocP-i/ocpi/releases/download/2.2.1/OCPl-2.2.1.P-df
+*** [versie 2.1.1](https:\\github.com/ocPi/ocpi/releases/download/2.1.1-d2/OCPI 2.1.1-d2.Pdf)
+*** [versie  2.2.1](https:\\github.com/ocPi/ocpi/releases/download/2.2.1/OCPl-2.2.1.Pdf)
 * total_energy negatief
 * start datetime in de toekomst
 * end datetime in de toekomst
