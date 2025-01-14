@@ -5,14 +5,9 @@ layout: home
 
 # Aansluitvoorwaarden en Ketentest LINDA Dataportaal
 
-Deze pagina beschrijft de aansluitvoorwaarden voor het LINDA Dataportaal en de ketentesten voor de levering van sessiedata over openbare laadinfrastructuur. Dit document beschrijft de uit te voeren testen met als doel het aantonen dat aan de aansluitvoorwaarden en datakwaliteitseisen voor het LINDA Dataportaal wordt voldaan.  
+Om als CPO data aan te leveren aan het LINDA Dataportaal bij NDW gelden onderstaande aansluitvoorwaarden. Als onderdeel van het aansluitproces voert NDW keten- en datakwaliteitstesten uit om te controleren of de levering van data over openbare laadinfrastructuur correct verloopt.  
 
-Uitgangspunten zijn:
-1.	Het LINDA Dataportaal en de supportoffice is operationeel.
-2.	Koppelvlakken zijn operationeel.
-3.	De testomgeving is beschikbaar 
-4.	Rapportages met testresultaten zijn beschikbaar.
-
+* Welke gegevens?
 Gegevens die worden aangeleverd hebben betrekking op de locaties van laadpalen en de laadsessies. Getest zal worden of de aanlevering van data aan NDW plaatsvindt conform de OCPI 2.2.1 standaard, met specifiek de modules “Locations”  en “CDR”.
 
 | Testvoorbereiding         | Gereed     | 
