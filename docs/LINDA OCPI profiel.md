@@ -32,6 +32,12 @@ Voor een compleet beeld van (het gebruik van) de openbare laadinfrastructuur moe
 
 Onderstaande tabellen bevatten zowel verduidelijkingen als aangescherpte richtlijnen die voortvloeien uit het OCPI LINDA-profiel. De aanvullende omschrijvingen en specificaties zijn van toepassing op de implementatie van de "CDR module" en de "Locations module" binnen de meest recente OCPI-versies (2.1.1 en 2.2.1). De tabellen geven een overzicht van de officiële specificaties, inclusief verduidelijkingen en aangescherpte verplichtingen die specifiek gelden volgens het LINDA OCPI Profiel.
 
+## Structuur van Data-aanlevering
+- Aanleveringsrichtlijnen: Elke CDR en locatie moet worden aangeleverd volgens de richtlijnen in de
+bijbehorende tabellen, afhankelijk van de overeengekomen OCPI-versie.
+- Hiërarchische structuur in JSON: Een dubbele punt (":") in een waarde van de kolom 'OCPI 2.x.1'
+geeft de hiërarchie aan in JSON, die strikt moet worden aangehouden.
+
 ## CDR en Locations module OCPI 2.1.1
 
 |   OCPI 2.1.1 veld (referentie hoofdstuk)|Omschrijving |Specificatie kwaliteitsnorm |Specificatie formaat|Verplicht|Motivatie|
