@@ -78,7 +78,7 @@ Aanvullende richtlijnen t.a.v datakwaliteit en -formaat. Deze richtlijnen zijn a
 | stop_date_time (hfd. 10.3.1) | Timestamp eind sessie | UTC timestamp  | -| 
 | auth_id (hfd. 10.3.1)  | Uniek token contract tussen EV-rijder en EMSP | - | Contract-ID, niet gehashed. Voorbeeld:  “NL-AAA-12345678-A”| 
 | evses : status (hfd. 8.3.2) | Huidige status van de EVSE | Actueel, maximaal 30 seconden oude data. | - | 
-| location : address (hfd. 8.3.1)| Adres | Geen toevoegingen zoals kruising van straten, geen beschrijvingen als “2e paal”. | <straatnaam> + spatie + <huisnummer> + spatie + <huisnummertoevoeging indien van toepassing>  |
+| location : address (hfd. 8.3.1)| Adres | Geen toevoegingen zoals kruising van straten, geen beschrijvingen als “2e paal”.| (straatnaam) + spatie + (huisnummer) + spatie + (huisnummertoevoeging, indien van toepassing)|
 | location : postal_code (hfd. 8.3.1) | Postcode | - | Vier cijfers, één spatie en hoofdletters. Voorbeeld: “1111 AA”| 
 | location : coordinates : latitude (hfd. 8.4.13) | Lengte- en breedtegraad van het laadstation | Op de meter nauwkeurig. Consistent met informatie Concessiegever c.q. contracthouder. | - | 
 | location : coordinates : longitude (hfd. 8.4.13) | Lengte- en breedtegraad van het laadstation | Op de meter nauwkeurig. Consistent met informatie Concessiegever c.q. contracthouder. | - | 
