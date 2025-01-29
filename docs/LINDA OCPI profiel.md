@@ -7,17 +7,17 @@ layout: home
 
 Het LINDA Dataportaal volgt de OCPI-standaard om de (her)bruikbaarheid van data te waarborgen. Om een consistente en uniforme manier van aanlevering van laaddata en laadlocaties te realiseren, is een set richtlijnen (het OCPI LINDA-profiel) ontwikkeld in samenwerking met het Nationaal Kennisplatform Laadinfrastructuur (NKL). Het doel is om een uniform profiel te bieden voor de aanlevering van Charge Detail Records (CDR's) middels het Open Charge Point Interface (OCPI)-protocol door Charge Point Operators (CPO's) die laadpalen in de publieke ruimte plaatsen en exploiteren.
 
-Het OCPI LINDA-proefiel is opgesteld in het kader van de landelijke samenwerking tussen gemeenten, samenwerkingsregio's, CPO's en het NDW voor het aanleveren van data voor het LINDA-dataportaal. Dit dataportaal verzamelt gegevens en stelt die beschikbaar voor de monitoring en planning van laadinfrastructuur. Door het harmoniseren van de aanlevering van deze gegevens via het OCPI-protocol, wordt beoogd de efficiëntie en betrouwbaarheid van de laadinfrastructuur in Nederland te verbeteren. Belanghebbenden binnen de laadinfrastructuursector, waaronder de NAL-regio's, CPO's, EV-Roaming Foundation en de NAL werkgroep Open Protocollen, Data en Markten, zijn betrokken bij het opstellen van deze richtlijnen in het OCPI LINDA-profiel.
+Het OCPI LINDA-profiel is opgesteld in het kader van de landelijke samenwerking tussen gemeenten, samenwerkingsregio's, CPO's en het NDW voor het aanleveren van data voor het LINDA-dataportaal. Dit dataportaal verzamelt gegevens en stelt die beschikbaar voor de monitoring en planning van laadinfrastructuur. Door het harmoniseren van de aanlevering van deze gegevens via het OCPI-protocol, wordt beoogd de efficiëntie en betrouwbaarheid van de laadinfrastructuur in Nederland te verbeteren. Belanghebbenden binnen de laadinfrastructuursector, waaronder de NAL-regio's, CPO's, EV-Roaming Foundation en de NAL werkgroep Open Protocollen, Data en Markten, zijn betrokken bij het opstellen van deze richtlijnen in het OCPI LINDA-profiel.
 
 Het OCPI LINDA-profiel is geen aanpassing van de OCPI-standaard zelf, maar het beschrijft richtlijnen voor het gebruik van de standaard. De OCPI-standaard kan gezien worden als het “wat” en het OCPI LINDA-profiel als het “hoe”. Het OCPI LINDA-profiel biedt verduidelijkingen, aanvullende eisen en richtlijnen die niet expliciet in het generieke OCPI-protocol zijn opgenomen, maar die essentieel zijn voor de uniformiteit en betrouwbaarheid van de data-aanlevering aan het LINDA Dataportaal. Door het OCPI LINDA-profiel te volgen, wordt uiteindelijk gewaarborgd dat de data uniform wordt aangeleverd aan het NDW vanuit CPO's, waarbij het OCPI-protocol als basis dient voor de gegevensuitwisseling.
 
-# Doelstelling NL-OCPI-LINDA-profiel
+# Doelstelling OCPI LINDA-profiel
 
-De doelstellingen die beoogd worden met het OCPI LINDA-profiel zijn:
+De doelstellingen van het OCPI LINDA-profiel zijn:
 1. Harmonisatie van datalevering door de wijze waarop CPO’s sessie- en locatiegegevens via het OCPI-protocol aanleveren aan het NDW te standaardiseren.
-2. Verbetering van datakwaliteit door heldere specificaties voor de kwaliteit van de aangeleverde data, inclusief accuraatheid, actualiteit, compleetheid, precisie en consistentie.
-3. Eenduidige implementatie van OCPI door het verduidelijken van de toepassing van het OCPI-protocol binnen de Nederlandse markt.
-4. Efficiënte overdracht van laadstations door procedures voor de overdracht van laadstations tussen CPO’s, inclusief het behoud van historische data en de consistente koppeling van nieuwe en oude laadpunt-ID’s.
+2. Verbetering van datakwaliteit door heldere specificaties voor de kwaliteit van de aangeleverde data.
+3. Eenduidige implementatie van het OCPI-protocol binnen de Nederlandse markt.
+4. Efficiënte overdracht van gegevens over laadstations, inclusief het behoud van historische data, bij wijziging van CPO.
 
 # Datakwaliteitseisen
 Voor alle velden binnen de CDR-objecten uit de OCPI-specificatie gelden de volgende eisen aan datakwaliteit:
