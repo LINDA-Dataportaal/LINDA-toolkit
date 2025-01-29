@@ -80,8 +80,24 @@ Aanvullende richtlijnen t.a.v datakwaliteit en -formaat. Deze richtlijnen zijn a
 | evses : status (hfd. 8.3.2) | Huidige status van de EVSE | Actueel, maximaal 30 seconden oude data. | - | 
 | location : address (hfd. 8.3.1)| Adres | Geen toevoegingen zoals kruising van straten, geen beschrijvingen als “2e paal”.| (straatnaam) + spatie + (huisnummer) + spatie + (huisnummertoevoeging, indien van toepassing)|
 | location : postal_code (hfd. 8.3.1) | Postcode | - | Vier cijfers, één spatie en hoofdletters. Voorbeeld: “1111 AA”| 
-| location : coordinates : latitude (hfd. 8.4.13) | Lengte- en breedtegraad van het laadstation | Op de meter nauwkeurig. Consistent met informatie Concessiegever c.q. contracthouder. | - | 
-| location : coordinates : longitude (hfd. 8.4.13) | Lengte- en breedtegraad van het laadstation | Op de meter nauwkeurig. Consistent met informatie Concessiegever c.q. contracthouder. | - | 
+| location : coordinates : latitude (hfd. 8.4.13) | Breedtegraad van het laadstation | Op de meter nauwkeurig. Consistent met informatie Concessiegever c.q. contracthouder. | - | 
+| location : coordinates : longitude (hfd. 8.4.13) | Lengtegraad van het laadstation | Op de meter nauwkeurig. Consistent met informatie Concessiegever c.q. contracthouder. | - | 
 
-## Kwaliteitsnormen NL-OCPI-LINDA-profiel voor OCPI 2.2.1
+## Kwaliteitsnormen OCPI LINDA-profiel voor OCPI 2.2.1
 Aanvullende richtlijnen t.a.v datakwaliteit en -formaat. Deze richtlijnen zijn aanvullend op de specificaties beschreven in de OCPI 2.2.1 standaard.
+
+|   OCPI 2.1.2 veld (referentie hoofdstuk)|Omschrijving |Specificatie kwaliteitsnorm |Specificatie formaat|
+|---|---|---|---|
+| id (hfd. 10.3.1) |  CDR-ID | -  |  Niet gehashed, wanneer de hashmethodes niet  overeenkomen bij de verschillende CPO’s levert dit  problemen op bij het uitvoeren van berekeningen. Daarom staan we geen hashing toe. | 
+| start_date_time (hfd. 10.3.1) | Timestamp start sessie | UTC timestamp  | -| 
+| stop_date_time (hfd. 10.3.1) | Timestamp eind sessie | UTC timestamp  | -| 
+| crd_token : uid (hfd. 10.3.1 en 10.4.5) | ID CDR token | - | niet gehashed. | 
+| crd_token : contract_id (hfd. 10.3.1 en 10.4.5) | Uniek token contract tussen EV-rijder en EMSP | - | Contract-ID, niet gehashed. | 
+| cdr_location : address (hfd. 10.3.1 en 10.4.4)| Adres | Geen toevoegingen zoals kruising van straten, geen beschrijvingen als “2e paal”.| (straatnaam) + spatie + (huisnummer) + spatie + (huisnummertoevoeging, indien van toepassing)|
+| location : postal_code (hfd. 8.3.1) | Postcode | - | Vier cijfers, één spatie en hoofdletters. Voorbeeld: “1111 AA”| 
+| location : coordinates : latitude (hfd. 8.4.13) | Breedtegraad van het laadstation | Op de meter nauwkeurig. Consistent met informatie Concessiegever c.q. contracthouder. | - | 
+| location : coordinates : longitude (hfd. 8.4.13) | Lengtegraad van het laadstation | Op de meter nauwkeurig. Consistent met informatie Concessiegever c.q. contracthouder. | - |
+| coordinates : latitude | Breedtegraad van het laadstation | Op de meter nauwkeurig. Consistent met informatie Concessiegever c.q. contracthouder. | - |
+| coordinates : longitude | Lengtegraad van het laadstation | Op de meter nauwkeurig. Consistent met informatie Concessiegever c.q. contracthouder. | - |
+| evses: coordinates: Latitude (hfd. 8.3.1, 8.4.13) | Breedtegraad van het laadstation| Op de meter nauwkeurig. Consistent met informatie Concessiegever c.q. contracthouder. | - |
+| evses: coordinates: Longitude (hfd. 8.3.1, 8.4.13) | Lengtegraad van het laadstation| Op de meter nauwkeurig. Consistent met informatie Concessiegever c.q. contracthouder. | - |
