@@ -1,5 +1,5 @@
 ---
-title: NL-OCPI-LINDA Profiel
+title: OCPI LINDA Profiel
 layout: home
 ---
 
