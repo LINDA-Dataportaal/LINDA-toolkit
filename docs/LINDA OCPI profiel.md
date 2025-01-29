@@ -5,13 +5,13 @@ layout: home
 
 # Inleiding
 
-Het LINDA Dataportaal volgt de OCPI-standaard om de (her)bruikbaarheid van data voor de efficiënte monitoring, planning en toepassing  te waarborgen. Hiervoor is een consistente en uniforme manier van aanlevering aan NDW noodzakelijk. Deze bijlage bevat een set richtlijnen om te komen tot verdere harmonisering van de aanlevering van laaddata en laadlocaties Deze bijlage is gebaseerd op de (concept) Handreiking NL-OCPI/LINDA Profiel, zoals opgesteld door het Nationaal Kennisplatform Laadinfrastructuur (NKL) in samenwerking met belanghebbenden binnen de laadinfrastructuursector, waaronder de NAL-regio's, CPO's, EV-Roaming Foundation en de NAL werkgroep Open Protocollen, Data en Markten.
+Het LINDA Dataportaal volgt de OCPI-standaard om de (her)bruikbaarheid van data te waarborgen. Om een consistente en uniforme manier van aanlevering van laaddata en laadlocaties te realiseren, is een set richtlijnen (het OCPI LINDA-profiel) ontwikkeld in samenwerking met het Nationaal Kennisplatform Laadinfrastructuur (NKL). Belanghebbenden binnen de laadinfrastructuursector, waaronder de NAL-regio's, CPO's, EV-Roaming Foundation en de NAL werkgroep Open Protocollen, Data en Markten, zijn betrokken bij het opstellen van deze richtlijnen.
 
-Het NL-OCPI-profiel betreft geen aanpassing van de OCPI-standaard zelf, maar beschrijft richtlijnen voor het gebruik van de standaard. De OCPI-standaard kan gezien worden als het “wat” en het NL-OCPI-profiel als het “hoe”.
+Het OCPI LINDA-profiel is geen aanpassing van de OCPI-standaard zelf, maar beschrijft richtlijnen voor het gebruik van de standaard. De OCPI-standaard kan gezien worden als het “wat” en het OCPI LINDA-profiel als het “hoe”.
 
 # Doelstelling NL-OCPI-LINDA-profiel
 
-De doelstellingen die beoogd worden met het NL- OCPI-LINDA-profiel zijn:
+De doelstellingen die beoogd worden met het OCPI LINDA-profiel zijn:
 1. Harmonisatie van datalevering door de wijze waarop CPO’s sessie- en locatiegegevens via het OCPI-protocol aanleveren aan het NDW te standaardiseren.
 2. Verbetering van datakwaliteit door heldere specificaties voor de kwaliteit van de aangeleverde data, inclusief accuraatheid, actualiteit, compleetheid, precisie en consistentie.
 3. Eenduidige implementatie van OCPI door het verduidelijken van de toepassing van het OCPI-protocol binnen de Nederlandse markt.
