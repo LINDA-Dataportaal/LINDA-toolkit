@@ -5,9 +5,12 @@ layout: home
 
 # Inleiding
 
-Het LINDA Dataportaal volgt de OCPI-standaard om de (her)bruikbaarheid van data te waarborgen. Om een consistente en uniforme manier van aanlevering van laaddata en laadlocaties te realiseren, is een set richtlijnen (het OCPI LINDA-profiel) ontwikkeld in samenwerking met het Nationaal Kennisplatform Laadinfrastructuur (NKL). Belanghebbenden binnen de laadinfrastructuursector, waaronder de NAL-regio's, CPO's, EV-Roaming Foundation en de NAL werkgroep Open Protocollen, Data en Markten, zijn betrokken bij het opstellen van deze richtlijnen.
+Het LINDA Dataportaal volgt de OCPI-standaard om de (her)bruikbaarheid van data te waarborgen. Om een consistente en uniforme manier van aanlevering van laaddata en laadlocaties te realiseren, is een set richtlijnen (het OCPI LINDA-profiel) ontwikkeld in samenwerking met het Nationaal Kennisplatform Laadinfrastructuur (NKL). Het doel is om een uniform profiel te bieden voor de aanlevering van Charge Detail Records (CDR's) middels het Open Charge Point Interface (OCPI)-protocol door Charge Point Operators (CPO's) die laadpalen in de publieke ruimte plaatsen en exploiteren.
+
+Belanghebbenden binnen de laadinfrastructuursector, waaronder de NAL-regio's, CPO's, EV-Roaming Foundation en de NAL werkgroep Open Protocollen, Data en Markten, zijn betrokken bij het opstellen van deze richtlijnen.
 
 Het OCPI LINDA-profiel is geen aanpassing van de OCPI-standaard zelf, maar beschrijft richtlijnen voor het gebruik van de standaard. De OCPI-standaard kan gezien worden als het “wat” en het OCPI LINDA-profiel als het “hoe”.
+
 
 # Doelstelling NL-OCPI-LINDA-profiel
 
