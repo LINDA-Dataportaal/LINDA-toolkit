@@ -62,4 +62,16 @@ De aanvullende omschrijvingen binnen het NL-OCPI-LINDA-profiel gelden allemaal v
 | location : evses: evse_id (hfd. 8.3.2) | - | - | -| Ja | Om laadlocaties te kunnen monitoren op gebruik is het laadpunt essentieel.|
 | operator (hfd. 8.3.1) |CPO Informatie | - | -| Ja | Consolidatie wordt vergemakkelijkt met deze informatie.|
 
+## Richtlijnen voor datakwaliteit
+De data in de velden van de OCPI-standaard moeten qua detail passen bij het gebruik. Daarvoor is het van belang dat het detailniveau en de inhoudelijke weergave van de data consistent is. Het NL-OCPI-LINDA-profiel beschrijft hoe deze velden gevuld dienen te worden. Deze beschrijvingen voldoen aan de OCPI standaard, maar zijn nader gedetailleerd op basis van de eisen van de Nederlandse markt.
+
+Onderstaande tabellen geven voor OCPI 2.1.1 en OCPI 2.1.2 een toelichting op de richtlijnen, zoals die gelden binnen het NL-OCPI-LINDA-profiel.
+
+## Kwaliteitsnormen OCPI LINDA-profiel voor OCPI 2.1.1
+Aanvullende richtlijnen t.a.v datakwaliteit en -formaat. Deze richtlijnen zijn aanvullend op de specificaties beschreven in de OCPI 2.1.1 standaard.
+
+|   OCPI 2.1.1 veld (referentie hoofdstuk)|Omschrijving |Specificatie kwaliteitsnorm |Specificatie formaat|
+|---|---|---|---|
+| id (hfd. 10.3.1) |  CDR-ID | -  |  Niet gehashed, wanneer de hashmethodes niet  overeenkomen bij de verschillende CPO’s levert dit  problemen op bij het uitvoeren van berekeningen. Daarom staan we geen hashing toe. | 
+| id (hfd. 8.3.1) | Location ID | -  | Niet gehashed| 
 
