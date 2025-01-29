@@ -55,7 +55,7 @@ De aanvullende omschrijvingen binnen het NL-OCPI-LINDA-profiel gelden allemaal v
 |---|---|---|---|---|---|
 | tariffs (hfd. 11.3.1)|  Tarief-object met informatie over tarief CDR | -  |  - | Ja  | Om effectief de contractuele afspraken te monitoren en transparantie te bieden aan de EV-rijder is deze data nodig. |
 | tariffs : type (hfd. 11.3.1)|  Tarief type | -  |  - | Ja  | Het type laadsessie heeft invloed op de resulterende druk op het netwerk. We gebruiken deze informatie om effectief te monitoren en te plannen op capaciteit. |
-|  total_fixed_cost (hfd. 10.3.1)| Totale vaste kosten onafhankelijk van tijd |-|Ja | Om effectief de contractuele afspraken te monitoren is deze data nodig.|
+|  total_fixed_cost (hfd. 10.3.1)| Totale vaste kosten onafhankelijk van tijd |-| -| Ja | Om effectief de contractuele afspraken te monitoren is deze data nodig.|
 | total_energy_cost (hfd. 10.3.1) |Totale kosten energie| -  |- | Ja| Om effectief de contractuele afspraken te monitoren is deze data nodig. |
 | total_parking_time (hfd. 10.3.1) | Totale duur laadsessie zonder dat er energie is geladen | - | -| Ja | Nodig voor het plannen op daadwerkelijk gebruik, en monitoren van het laadnetwerk.|
 | evses | EVSE-object met informatie over laadstations op deze locatie | - | - | Ja| - |
