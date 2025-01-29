@@ -38,29 +38,48 @@ bijbehorende tabellen, afhankelijk van de overeengekomen OCPI-versie.
 - Hiërarchische structuur in JSON: Een dubbele punt (":") in een waarde van de kolom 'OCPI 2.x.1'
 geeft de hiërarchie aan in JSON, die strikt moet worden aangehouden.
 
-## CDR en Locations module OCPI 2.1.1
+## CDR module OCPI 2.1.1
 
 |   OCPI 2.1.1 veld (referentie hoofdstuk)|Omschrijving |Specificatie kwaliteitsnorm |Specificatie formaat|Verplicht|Motivatie|
 |---|---|---|---|---|---|
 | tariffs (hfd. 10.3.1)|  Tarief-object met informatie over tarief CDR | -  |  - | Ja  | Om effectief de contractuele afspraken te monitoren en transparantie te bieden aan de EV-rijder is deze data nodig. |
 |  total_parking_time (hfd. 10.3.1)| -  |-|Ja | Totale duur laadsessie zonder dat er energie is geladen |
+
+## Locations module OCPI 2.1.1
+
+|   OCPI 2.1.1 veld (referentie hoofdstuk)|Omschrijving |Specificatie kwaliteitsnorm |Specificatie formaat|Verplicht|Motivatie|
+|---|---|---|---|---|---|
 | evses (hfd. 8.3.1 en 8.3.2) |EVSE-object met informatie over laadstations op deze locatie| -  |- | Ja| Door hergebruik van de “location module” in de specificatie is dit in versie 2.1.1 |
 | location : evses : evse_id (hfd. 8.3.2) | -  | - | -| Ja | Om laadlocaties te kunnen monitoren op gebruik is het laadpunt essentieel.|
 | operator (hfd. 8.3.1 en 8.4.2) | CPO informatie | - | - | Ja| Consolidatie wordt vergemakkelijkt met deze informatie. |
 
 ## CDR en Locations module OCPI 2.1.2
-De aanvullende omschrijvingen binnen het NL-OCPI-LINDA-profiel gelden allemaal voor de “CDR module” (OCPI 2.2.1, CDR module) en de “Locations module” (OCPI 2.2.1, Locations module). De tabel hieronder is een overzicht van de officiële specificaties, inclusief verduidelijkingen en aangescherpte richtlijnen.
+De aanvullende omschrijvingen binnen het OCPI LINDA-profiel gelden allemaal voor de “CDR module” (OCPI 2.2.1, CDR module) en de “Locations module” (OCPI 2.2.1, Locations module). De tabel hieronder is een overzicht van de officiële specificaties, inclusief verduidelijkingen en aangescherpte richtlijnen.
+
+## CDR module OCPI 2.1.2
+
+|   OCPI 2.1.2 veld (referentie hoofdstuk)|Omschrijving |Specificatie kwaliteitsnorm |Specificatie formaat|Verplicht|Motivatie|
+|---|---|---|---|---|---|
+| tariffs (hfd. 11.3.1)|  Tarief-object met informatie over tarief CDR | -  |  - | Ja  | Om effectief de contractuele afspraken te monitoren en transparantie te bieden aan de EV-rijder is deze data nodig. |
+|  total_fixed_cost (hfd. 10.3.1)| Totale vaste kosten onafhankelijk van tijd |-| -| Ja | Om effectief de contractuele afspraken te monitoren is deze data nodig.|
+| total_energy_cost (hfd. 10.3.1) |Totale kosten energie| -  |- | Ja| Om effectief de contractuele afspraken te monitoren is deze data nodig. |
+| total_parking_time (hfd. 10.3.1) | Totale duur laadsessie zonder dat er energie is geladen | - | -| Ja | Nodig voor het plannen op daadwerkelijk gebruik, en monitoren van het laadnetwerk.|
+
+## Locations module OCPI 2.1.2
+
+|   OCPI 2.1.2 veld (referentie hoofdstuk)|Omschrijving |Specificatie kwaliteitsnorm |Specificatie formaat|Verplicht|Motivatie|
+|---|---|---|---|---|---|
+| evses | EVSE-object met informatie over laadstations op deze locatie | - | - | Ja| - |
+| location : evses: evse_id (hfd. 8.3.2) | - | - | -| Ja | Om laadlocaties te kunnen monitoren op gebruik is het laadpunt essentieel.|
+| operator (hfd. 8.3.1) |CPO Informatie | - | -| Ja | Consolidatie wordt vergemakkelijkt met deze informatie.|
+
+## Tariffs module OCPI 2.1.2
 
 |   OCPI 2.1.2 veld (referentie hoofdstuk)|Omschrijving |Specificatie kwaliteitsnorm |Specificatie formaat|Verplicht|Motivatie|
 |---|---|---|---|---|---|
 | tariffs (hfd. 11.3.1)|  Tarief-object met informatie over tarief CDR | -  |  - | Ja  | Om effectief de contractuele afspraken te monitoren en transparantie te bieden aan de EV-rijder is deze data nodig. |
 | tariffs : type (hfd. 11.3.1)|  Tarief type | -  |  - | Ja  | Het type laadsessie heeft invloed op de resulterende druk op het netwerk. We gebruiken deze informatie om effectief te monitoren en te plannen op capaciteit. |
-|  total_fixed_cost (hfd. 10.3.1)| Totale vaste kosten onafhankelijk van tijd |-| -| Ja | Om effectief de contractuele afspraken te monitoren is deze data nodig.|
-| total_energy_cost (hfd. 10.3.1) |Totale kosten energie| -  |- | Ja| Om effectief de contractuele afspraken te monitoren is deze data nodig. |
-| total_parking_time (hfd. 10.3.1) | Totale duur laadsessie zonder dat er energie is geladen | - | -| Ja | Nodig voor het plannen op daadwerkelijk gebruik, en monitoren van het laadnetwerk.|
-| evses | EVSE-object met informatie over laadstations op deze locatie | - | - | Ja| - |
-| location : evses: evse_id (hfd. 8.3.2) | - | - | -| Ja | Om laadlocaties te kunnen monitoren op gebruik is het laadpunt essentieel.|
-| operator (hfd. 8.3.1) |CPO Informatie | - | -| Ja | Consolidatie wordt vergemakkelijkt met deze informatie.|
+
 
 ## Richtlijnen voor datakwaliteit
 De data in de velden van de OCPI-standaard moeten qua detail passen bij het gebruik. Daarvoor is het van belang dat het detailniveau en de inhoudelijke weergave van de data consistent is. Het NL-OCPI-LINDA-profiel beschrijft hoe deze velden gevuld dienen te worden. Deze beschrijvingen voldoen aan de OCPI standaard, maar zijn nader gedetailleerd op basis van de eisen van de Nederlandse markt.
