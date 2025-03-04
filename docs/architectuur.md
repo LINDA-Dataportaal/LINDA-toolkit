@@ -4,7 +4,7 @@ layout: home
 ---
 
 ### Architectuur
-![Architectuur NDW](LINDA_Architectuur.png "LINDA Architectuur")
+volgt nog
 
 ### Data ontvangst
 
