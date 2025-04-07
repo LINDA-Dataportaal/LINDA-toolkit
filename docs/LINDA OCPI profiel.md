@@ -42,16 +42,16 @@ geeft de hiërarchie aan in JSON, die strikt moet worden aangehouden.
 
 |   OCPI 2.1.1 veld (referentie hoofdstuk)|Omschrijving |Specificatie kwaliteitsnorm |Specificatie formaat|Verplicht|Motivatie|
 |---|---|---|---|---|---|
-| tariffs (hfd. 10.3.1)|  Tarief-object met informatie over tarief CDR | -  |  - | Ja  | Om effectief de contractuele afspraken te monitoren en transparantie te bieden aan de EV-rijder is deze data nodig. |
-|  total_parking_time (hfd. 10.3.1)| -  |-|Ja | Totale duur laadsessie zonder dat er energie is geladen |
+| tariffs (hfd. 10.3.1)|  Tarief-object met informatie over tarief CDR | Tariefinformatie moet binnen 24 uur na sessieafsluiting up-to-date zijn. | CiString type - Verplichte Properties: country_code, party_id, id, currency | Ja  | Om effectief de contractuele afspraken te monitoren en transparantie te bieden aan de EV-rijder is deze data nodig. |
+|  total_parking_time (hfd. 10.3.1)| Number |In uren, in JSON number, 4 decimalen |Ja | Totale duur laadsessie zonder dat er energie is geladen |
 
 ## Locations module OCPI 2.1.1
 
 |   OCPI 2.1.1 veld (referentie hoofdstuk)|Omschrijving |Specificatie kwaliteitsnorm |Specificatie formaat|Verplicht|Motivatie|
 |---|---|---|---|---|---|
-| evses (hfd. 8.3.1 en 8.3.2) |EVSE-object met informatie over laadstations op deze locatie| -  |- | Ja| Door hergebruik van de “location module” in de specificatie is dit in versie 2.1.1 |
-| location : evses : evse_id (hfd. 8.3.2) | -  | - | -| Ja | Om laadlocaties te kunnen monitoren op gebruik is het laadpunt essentieel.|
-| operator (hfd. 8.3.1 en 8.4.2) | CPO informatie | - | - | Ja| Consolidatie wordt vergemakkelijkt met deze informatie. |
+| evses (hfd. 8.3.1 en 8.3.2) |EVSE-object met informatie over laadstations op deze locatie| EVSEID moet uniek zijn en niet veranderen bij software-updates | Verplichte Properties: uid, status, last_updated | Ja| Door hergebruik van de “location module” in de specificatie is dit in versie 2.1.1 |
+| location : evses : evse_id (hfd. 8.3.2) | Laadstation-ID | Voorbeeld: NL*ABC*E12345 - NL = Country Code (ISO 3166-1), ABC = Operator ID (eMI3-compliant CPO ID), E12345 = Unique EVSE ID |CiString type - Alleen printable ASCII allowed, Alleen laadstation-ID, zonder laadpunt-ID| Ja | Om laadlocaties te kunnen monitoren op gebruik is het laadpunt essentieel.|
+| operator (hfd. 8.3.1 en 8.4.2) | CPO informatie | Naam van de CPO, operator in | Alleen printable UTF-8 | Ja| Consolidatie wordt vergemakkelijkt met deze informatie. |
 
 ## Verplichte velden in de OCPI 2.2.1 standaard
 De aanvullende omschrijvingen binnen het OCPI LINDA-profiel gelden allemaal voor de “CDR module” (OCPI 2.2.1, CDR module) en de “Locations module” (OCPI 2.2.1, Locations module). De tabel hieronder is een overzicht van de officiële specificaties, inclusief verduidelijkingen en aangescherpte richtlijnen.
